@@ -5,6 +5,8 @@ import AdminPage from './components/AdminPage';
 import Exam from './components/Exam';
 import Login from './components/Login';
 import Registration from './components/Registration';
+import AddExam from './components/AddExam';
+import Examdetails from './components/Examdetails';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path="/admin" element={<AdminPage />} />
         <Route path="/exam" element={<Exam />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/addexam" element={<AddExam />} />
+        <Route path="/examdetail" element={<Examdetails />} />
         <Route path="/result" element={<div>Your results will be displayed here.</div>} />
       </Routes>
     </Router>

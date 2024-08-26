@@ -2,6 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 const AdminPage = () => {
+  
   return (
     <section>
       <div className='flex justify-center items-center w-full bg-[#202020] sm:px-16 px-6'>
@@ -25,6 +26,52 @@ const AdminPage = () => {
             </div>
         </div>
         
+        <div className='flex flex-col items-center justify-center mt-20'>
+         <table className='content bg-white shadow-md'>
+          <thead>
+            <tr>
+              <th className='p[12'>S/N</th>
+              <th>Subject</th>
+              <th>Total questions</th>
+              <th>Time limit</th>
+              <th>action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>mathematics</td>
+              <td>5</td>
+              <td>20 min</td>
+              <td>delete</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>mathematics</td>
+              <td>5</td>
+              <td>20 min</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>mathematics</td>
+              <td>5</td>
+              <td>20 min</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>mathematics</td>
+              <td>5</td>
+              <td>20 min</td>
+            </tr>
+          </tbody>
+         </table>
+        </div>
     </section>
   )
 }
